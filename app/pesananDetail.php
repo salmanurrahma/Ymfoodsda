@@ -1,10 +1,9 @@
 <?php
 
 namespace App;
-
 use Illuminate\Database\Eloquent\Model;
-
 class pesananDetail extends Model
+    
 {
     public function user()
     {
