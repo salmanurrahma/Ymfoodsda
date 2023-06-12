@@ -2,7 +2,6 @@
 <?php
 
 define('LARAVEL_START', microtime(true));
-
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
@@ -49,5 +48,4 @@ $status = $kernel->handle(
 */
 
 $kernel->terminate($input, $status);
-
 exit($status);
